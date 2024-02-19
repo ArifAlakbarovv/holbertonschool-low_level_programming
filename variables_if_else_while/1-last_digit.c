@@ -1,6 +1,6 @@
 /*
  * File: 1-last_digit.c
- * Auth: Lalo Rdz
+ * Auth: Arif
  */
 #include <stdlib.h>
 #include <time.h>
