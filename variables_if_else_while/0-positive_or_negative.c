@@ -1,6 +1,6 @@
 /*
  * File: 0-positive_or_negative.c
- * Auth: Lalo Rdz
+ * Auth: Arif
  */
 #include <stdlib.h>
 #include <time.h>
