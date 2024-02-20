@@ -1,20 +1,30 @@
-/*
- * File: 0-putchar.c
- * Auth: Arif
- */
+/* main.h */
+#ifndef MAIN_H
+#define MAIN_H
+
+int _putchar(char c);
+
+#endif /* MAIN_H */
+
+/* 0-putchar.c */
 #include "main.h"
 
 /**
- * main - Prints "_putchar", followed by a new line.
+ * main - Entry point
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char c[9] = "_putchar\n";
-	int i;
+    _putchar('_');
+    _putchar('p');
+    _putchar('u');
+    _putchar('t');
+    _putchar('c');
+    _putchar('h');
+    _putchar('a');
+    _putchar('r');
+    _putchar('\n');
 
-	for (i = 0; i <= 8; i++)
-		_putchar(c[i]);
-	return (0);
+    return (0);
 }
