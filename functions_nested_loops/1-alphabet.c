@@ -1,28 +1,19 @@
-/* main.h */
-#ifndef MAIN_H
-#define MAIN_H
+/*
+ * File: 1-alphabet.c
+ * Auth: Arif  9072@holbertonstudents.com   
+ */
 
-void print_alphabet(void);
-int _putchar(char c);
-
-#endif /* MAIN_H */
-
-/* 1-alphabet.c */
+#include <unistd.h>
 #include "main.h"
 
-/**
- * print_alphabet - Prints the alphabet in lowercase followed by a new line
- */
 void print_alphabet(void)
 {
-    char letter = 'a';
+	int n;
 
-    while (letter <= 'z')
-    {
-        _putchar(letter);
-        letter++;
-    }
+	for (n = 97; c <= 122; n++)
+	{
+		_putchar(n);
+	}
 
-    _putchar('\n');
+	_putchar('\n');
 }
-
