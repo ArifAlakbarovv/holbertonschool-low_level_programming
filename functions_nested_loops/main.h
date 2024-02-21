@@ -1,11 +1,7 @@
-/* main.h */
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef main_h
+#define main_h
 
 int _putchar(char c);
-int main(void)
-{
-    print_alphabet();
-    return (0);
-}
-#endif /* MAIN_H */
+void print_alphabet(void);
+
+#endif
