@@ -1,19 +1,20 @@
-/*
- * File: 1-alphabet.c
- * Auth: Arif  9072@holbertonstudents.com   
- */
-
-#include <unistd.h>
 #include "main.h"
+
+/**
+ * print_alphabet - Entry point
+ * Return:0
+ */
 
 void print_alphabet(void)
 {
-	int n;
+	char c = 'a';
 
-	for (n = 97; c <= 122; n++)
+	while (c <= 'z')
 	{
-		_putchar(n);
-	}
+		_putchar(c);
+		c++;
 
+	}
 	_putchar('\n');
+
 }
