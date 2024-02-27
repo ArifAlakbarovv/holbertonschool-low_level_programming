@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+#include <stdio.h>
 
 /**
  * my code
@@ -14,7 +15,7 @@ char *strcat(char *dest, const char *src)
     for (index = 0; src[index]; index++)
         dest[dest_len++] = src[index];
 
-    dest[dest_len] = '\0';  // Ensure the destination string is null-terminated
+    dest[dest_len] = '\0';
 
     return dest;
 }
