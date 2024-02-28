@@ -16,7 +16,7 @@ struct dog
 };
 
 /**
- * dog_t - Typedef for struct 
+ * dog_t - Typedef for struct
  */
 typedef struct dog dog_t;
 
