@@ -1,5 +1,5 @@
-#ifndef MAIN_H
-#define MAIN_H
+#ifndef function_pointers.h
+#define function_pointers.h
 
 #include <stdlib.h>
 
