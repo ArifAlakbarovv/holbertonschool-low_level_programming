@@ -11,8 +11,11 @@ int _strlen(char *s)
 {
 	size_t length = 0;
 
-	while (*s++)
-		length++;
+	while (*s != '\0') {
+  		length++;
+  		s++;
+}
+
 
 	return (length);
 }
